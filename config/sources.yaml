@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "initial_lookback_days": 7,
+  "overlap_days": 2,
+  "sections": ["research", "open_source", "industry"],
+  "sources": [
+    {"id": "arxiv", "sections": ["research"], "url": "https://arxiv.org/list/cs.RO/recent", "focus": "VLA、操作、强化学习、世界模型；补充 cs.AI/cs.CV/cs.LG 开放检索"},
+    {"id": "openreview", "sections": ["research"], "url": "https://openreview.net/", "focus": "CoRL、RSS、ICRA、ICLR、NeurIPS 论文与修订"},
+    {"id": "physical-intelligence", "sections": ["research", "open_source"], "url": "https://www.physicalintelligence.company/blog", "focus": "通用机器人策略、真机评测"},
+    {"id": "openpi", "sections": ["open_source"], "url": "https://github.com/Physical-Intelligence/openpi", "focus": "版本、权重、训练与推理接口"},
+    {"id": "lerobot", "sections": ["open_source"], "url": "https://github.com/huggingface/lerobot/releases", "focus": "训练框架、数据格式与机器人接入"},
+    {"id": "huggingface", "sections": ["open_source"], "url": "https://huggingface.co/datasets?task_categories=task_categories:robotics", "focus": "发布者数据卡、许可证、版本与下载可用性"},
+    {"id": "nvidia", "sections": ["research", "open_source", "industry"], "url": "https://developer.nvidia.com/blog/", "focus": "GR00T、Isaac、Cosmos 与仿真基础设施"},
+    {"id": "deepmind", "sections": ["research", "industry"], "url": "https://deepmind.google/blog/", "focus": "机器人、世界模型与多模态模型"},
+    {"id": "openai", "sections": ["industry"], "url": "https://openai.com/news/", "focus": "模型、Agent 与研究基础设施"},
+    {"id": "anthropic", "sections": ["industry"], "url": "https://www.anthropic.com/news", "focus": "模型、Agent 和工具接口"},
+    {"id": "microsoft", "sections": ["industry"], "url": "https://microsoft.ai/", "focus": "模型与工程 Agent"}
+  ],
+  "open_search": [
+    "vision language action robot manipulation {start} {end}",
+    "robot reinforcement learning world model sim2real {start} {end}",
+    "robotics open source dataset release {start} {end}",
+    "具身智能 视觉语言动作 世界模型 开源 数据集 {start} {end}",
+    "AI model agent release official {start} {end}"
+  ]
+}

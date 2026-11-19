@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "id": "reread",
+      "work_id": "arxiv:2611.20465",
+      "event_id": "v1",
+      "section": "research",
+      "title": "ReRead",
+      "published_at": "2026-11-16",
+      "date_source": "https://arxiv.org/html/2611.20465v1",
+      "change_summary": "首次论文：冻结策略后从当前与历史 K/V 缓存预测动作残差，并报告干预和闭环评测。",
+      "late_discovery": false,
+      "late_reason": "",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2611.20465v1",
+          "accessed_at": "2026-11-19T13:14:57+08:00",
+          "kind": "primary",
+          "evidence_level": "full_text",
+          "claims": [
+            {
+              "claim": "纠正器读历史缓存；全量结果与困难子集须分开。",
+              "locator": "§4.1–4.3; §5.2, Tables 1–2; §5.3 history replacement"
+            }
+          ]
+        }
+      ],
+      "report_id": "2026-11-19-130000-72c58c"
+    },
+    {
+      "id": "scalevla",
+      "work_id": "arxiv:2611.21607",
+      "event_id": "v1",
+      "section": "research",
+      "title": "ScaleVLA",
+      "published_at": "2026-11-16",
+      "date_source": "https://arxiv.org/html/2611.21607v1",
+      "change_summary": "首次论文：在统一动作头框架下比较到 552B 的冻结主干及其资源代价。",
+      "late_discovery": false,
+      "late_reason": "",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2611.21607v1",
+          "accessed_at": "2026-11-19T13:14:57+08:00",
+          "kind": "primary",
+          "evidence_level": "full_text",
+          "claims": [
+            {
+              "claim": "冻结主干接动作 DiT；延迟报告为四张 H200 上的动作块中位数。",
+              "locator": "§3.1–3.2; Table 3; Table 6; §4.5"
+            }
+          ]
+        }
+      ],
+      "report_id": "2026-11-19-130000-72c58c"
+    },
+    {
+      "id": "nf-vla",
+      "work_id": "arxiv:2611.20314",
+      "event_id": "v1",
+      "section": "research",
+      "title": "NF-VLA",
+      "published_at": "2026-11-15",
+      "date_source": "https://arxiv.org/html/2611.20314v1",
+      "change_summary": "首次论文：以最大似然训练条件归一化流，结合采样后的密度梯度修正。",
+      "late_discovery": false,
+      "late_reason": "",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2611.20314v1",
+          "accessed_at": "2026-11-19T13:14:57+08:00",
+          "kind": "primary",
+          "evidence_level": "full_text",
+          "claims": [
+            {
+              "claim": "方法及 LIBERO / LIBERO-Plus 的实验口径。",
+              "locator": "§4; §5.2–5.4; Tables 1–2"
+            }
+          ]
+        }
+      ],
+      "report_id": "2026-11-19-130000-72c58c"
+    },
+    {
+      "id": "alloy",
+      "work_id": "github:argonrobotics-ai/alloy",
+      "event_id": "paper-2611.16312-v1",
+      "section": "open_source",
+      "title": "Alloy",
+      "published_at": "2026-11-12T13:14:10+08:00",
+      "date_source": "https://arxiv.org/abs/2611.16312",
+      "change_summary": "以论文 v1 公开为本期事件；同时核查可访问仓库，未认定其首次软件发布日。",
+      "late_discovery": false,
+      "late_reason": "",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.16312",
+          "accessed_at": "2026-11-19T13:14:57+08:00",
+          "kind": "primary",
+          "evidence_level": "abstract",
+          "claims": [
+            {
+              "claim": "论文公开日期与多求解器场景描述。",
+              "locator": "Submission history v1; Abstract"
+            }
+          ]
+        },
+        {
+          "url": "https://github.com/argonrobotics-ai/alloy",
+          "accessed_at": "2026-11-19T13:14:57+08:00",
+          "kind": "primary",
+          "evidence_level": "repository",
+          "claims": [
+            {
+              "claim": "Apache-2.0 代码；早期 0.x 状态、素材独立许可与 MCP 接口。",
+              "locator": "README: Alloy physics engine; Status; Object library; MCP server"
+            }
+          ]
+        }
+      ],
+      "report_id": "2026-11-19-130000-72c58c"
+    },
+    {
+      "id": "genie4",
+      "work_id": "org:google/genie-4",
+      "event_id": "project-genie-access-2026-11-18",
+      "section": "industry",
+      "title": "Genie 4 产品访问",
+      "published_at": "2026-11-18",
+      "date_source": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+      "change_summary": "Genie 4 在 Project Genie 向符合条件的订阅用户开放；并非模型首次提出。",
+      "late_discovery": false,
+      "late_reason": "",
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+          "accessed_at": "2026-11-19T13:14:57+08:00",
+          "kind": "primary",
+          "evidence_level": "official_announcement",
+          "claims": [
+            {
+              "claim": "访问范围、交互功能与已说明的限制。",
+              "locator": "Dateline; Experience Genie 4; Learn how we are building responsibly; Try Project Genie today"
+            }
+          ]
+        }
+      ],
+      "report_id": "2026-11-19-130000-72c58c"
+    },
+    {
+      "id": "gpt62",
+      "work_id": "org:openai/gpt-6.2",
+      "event_id": "launch-2026-11-17",
+      "section": "industry",
+      "title": "GPT-6.2 Astra / Sol",
+      "published_at": "2026-11-17",
+      "date_source": "https://learn.chatgpt.com/docs/whats-new/gpt-62-astra-sol",
+      "change_summary": "Astra 与 Sol 发布到 Work、Codex 和 API，官方报告任务表现与效率改进。",
+      "late_discovery": false,
+      "late_reason": "",
+      "sources": [
+        {
+          "url": "https://learn.chatgpt.com/docs/whats-new/gpt-62-astra-sol",
+          "accessed_at": "2026-11-19T13:14:57+08:00",
+          "kind": "primary",
+          "evidence_level": "official_announcement",
+          "claims": [
+            {
+              "claim": "发布日期和可用产品。",
+              "locator": "November 17, 2026; What's new"
+            }
+          ]
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+          "accessed_at": "2026-11-19T13:14:57+08:00",
+          "kind": "primary",
+          "evidence_level": "official_announcement",
+          "claims": [
+            {
+              "claim": "厂商提供的 Agents' Last Exam 比较。",
+              "locator": "A new standard for professional work, Agents' Last Exam paragraph"
+            }
+          ]
+        }
+      ],
+      "report_id": "2026-11-19-130000-72c58c"
+    },
+    {
+      "id": "gemini-neon",
+      "work_id": "org:google/gemini-4-neon",
+      "event_id": "launch-2026-11-18",
+      "section": "industry",
+      "title": "Gemini 4 Neon",
+      "published_at": "2026-11-18",
+      "date_source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "change_summary": "模型公开发布并进入 API 等产品，强调多模态长任务及工具工作流。",
+      "late_discovery": false,
+      "late_reason": "",
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "accessed_at": "2026-11-19T13:14:57+08:00",
+          "kind": "primary",
+          "evidence_level": "official_announcement",
+          "claims": [
+            {
+              "claim": "发布日期、输入与上下文、产品可用性和多步工作定位。",
+              "locator": "Dateline; Gemini 4 Neon is available; Delivers across enterprise; Built for production-ready code"
+            }
+          ]
+        }
+      ],
+      "report_id": "2026-11-19-130000-72c58c"
+    },
+    {
+      "id": "mai-code2",
+      "work_id": "org:microsoft/mai-code-2",
+      "event_id": "launch-2026-11-17",
+      "section": "industry",
+      "title": "MAI Code 2 / Flash",
+      "published_at": "2026-11-17",
+      "date_source": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+      "change_summary": "发布编码模型；将同期 Licensed Weights 公告作为部署授权背景，区分受限合作与公开权重。",
+      "late_discovery": false,
+      "late_reason": "",
+      "sources": [
+        {
+          "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+          "accessed_at": "2026-11-19T13:14:57+08:00",
+          "kind": "primary",
+          "evidence_level": "official_announcement",
+          "claims": [
+            {
+              "claim": "模型定位及编码比较采用的推理、评测和促销条件。",
+              "locator": "Production quality at less than half the price; About these results footnotes 1 and 3"
+            }
+          ]
+        },
+        {
+          "url": "https://microsoft.ai/news/introducing-mai-licensed-weights/",
+          "accessed_at": "2026-11-19T13:14:57+08:00",
+          "kind": "primary",
+          "evidence_level": "official_announcement",
+          "claims": [
+            {
+              "claim": "Azure 部署定制与 coming soon 状态。",
+              "locator": "Models you control; Get started"
+            }
+          ]
+        }
+      ],
+      "report_id": "2026-11-19-130000-72c58c"
+    }
+  ]
+}
